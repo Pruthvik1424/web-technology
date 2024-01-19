@@ -1,0 +1,86 @@
+
+.paragraph{
+    color: brown;
+    padding-top: 10px;
+    margin-top: -5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.paragraph-container{
+    border-radius: 10px;
+    border: 3px double rebeccapurple;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+/*
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:5px blanchedalmond;
+    margin-bottom:10px;
+
+}
+table, tr,td{
+    border-color: blueviolet;
+    color: aquamarine;
+
+}
+td,th{
+    color: black;
+}*/
+*{
+    color: yellow;
+}
+.box1{
+    height: 30px;
+    width: 30px;
+    background-color: cadetblue;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    border:0.5px solid rgb(0, 79, 128);
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(15, 222, 91);
+    margin-bottom: 2px;
+    border-radius: 2px;
+    border:0.5px solid rgb(128, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(247, 140, 10);
+    margin-bottom: 2px;
+    border-radius: 2px;
+    border:0.5px solid green;
+    display: flex;
+    justify-content: center;
+}
+.box4{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 2px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    border:0.5px solid rgb(128, 0, 85);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}

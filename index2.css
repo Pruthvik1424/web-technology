@@ -1,0 +1,28 @@
+.container{
+    margin: 50px;
+    border: double yellow;
+    color: red;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+  
+}
+body{
+    background-image: url("technology.webp");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 50px;
+
+}
+h1{
+    color: chartreuse;
+    text-align: center;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+}

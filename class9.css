@@ -1,0 +1,101 @@
+.wild{
+    color: rgb(9, 9, 9);
+    text-align: center;
+    text-shadow: 50px;
+    background-color: rgb(255, 242, 0);
+  
+    text-decoration: underline;
+    
+    
+
+}
+.wild:hover{
+    color: brown;
+   
+}
+.image{
+
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-left: 405px;
+    opacity: 1;
+
+}
+.text{
+    margin-left: 500px;
+    margin-top: 350px;
+    position: absolute;
+    font-size: small;
+    color: rgb(6, 6, 5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.5;
+    
+}
+
+/* here we are using 2D transform */
+   /* types-> translate(),rotate(),scale(),scaleX(),scaleY(),skew(),skewX(),skewY()  */
+.transform{
+    position:absolute;
+    width: 200px;
+    height:200px;
+    background-color: cadetblue;
+    transform: rotate(45deg);
+}
+.wldgrphy{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.translate{
+    transform: translate(500px,500px);
+
+}
+.scale{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    transform: scale(2,2);
+}
+.trnslt{
+    transform: translate(500px,900px);
+    
+}
+.scaleX{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 7, 7);
+    transform: scaleX(2);
+    /* like scaleX, scaleY will change width of the Y axis */
+
+}
+.translate1{
+    transform: translate(500px,1200px);
+}
+/* skew here change the degree of whole box */
+.skew{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(218, 255, 7);
+    transform: skew(25deg);
+    margin-bottom: 50px;
+}
+.translate2{
+    transform: translate(500px,1600px);
+}
+.skewX{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(7, 255, 7);
+    transform: skewX(45deg);
+    /* here like skewX, skewY also working like changing degree in Y axis */
+
+}
+.translate3{
+    transform: translate(500px,2000px);
+
+}

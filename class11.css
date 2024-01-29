@@ -1,0 +1,19 @@
+.Display{
+    display: flex ;   
+    /* here we can use block,inline,flex(editable),inline block(no editable),inline-flex; */
+    border: 2px solid chocolate;
+
+}
+span{
+    background-color: aqua;
+    color: darkblue;
+}
+.decoration{
+    /* text-decoration-line: overline; */
+    text-decoration-line: underline;
+    /* text-decoration-line: line-through; */
+    text-decoration-color: cadetblue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+
+}

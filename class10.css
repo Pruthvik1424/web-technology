@@ -1,0 +1,65 @@
+body{
+    transform: translate(200px,200px);
+    background-color: rgb(232, 238, 238);
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    transition: width 3s, height 4s,transform 2s ;
+    /* transition-delay: 2s;   -> we can use like this also or we can give transform iside the transform also  */
+    /* for transition delay it will wait for 2s and after 2s it will increase the size acc to transition width and height */
+    
+}
+.box1:hover{
+    width: 250px;
+    height: 350px;
+    transform: rotate(360deg);
+}
+.box2{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    transition: width 2s;
+    background-color: rgb(244, 3, 3);
+    transition-timing-function: ease;
+
+}
+.box2:hover{
+  width: 350px;
+}
+.box3{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    transition: width 2s;
+    background-color: rgb(244, 232, 3);
+    transition-timing-function: ease-in;
+
+}
+.box3:hover{
+    width: 350px;
+}
+.box4{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    transition: width 2s;
+    background-color: rgb(244, 3, 156);
+    transition-timing-function: ease-in-out;
+}
+.box4:hover{
+   width: 350px; 
+}
+.box5{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    transition: width 2s;
+    background-color: rgb(3, 244, 111);
+    transition-timing-function: ease-out;
+
+}
+.box5:hover{
+   width: 350px;
+}
